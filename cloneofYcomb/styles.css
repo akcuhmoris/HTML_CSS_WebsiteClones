@@ -1,0 +1,107 @@
+html {
+    font-family: Avenir, ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";
+}
+
+
+/* Navbar Styles */
+
+.navbar {
+    background-color: #f5f5ee;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.navbar-left {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 15%;
+    font-family: Avenir, ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";
+}
+
+.navbar-right {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    height: 100%;
+    font-family: Avenir, ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";
+    margin-left: 10%;
+}
+
+.main-logo {
+    width: 56px;
+    height: 56px;
+}
+
+.navbar-right>* {
+    padding: 8px;
+}
+
+.navbar-left>* {
+    padding: 3px;
+}
+
+.apply {
+    background-color: #FB651E;
+    border: none;
+    color: white;
+    margin-left: 15px;
+    width: 69.7px;
+    height: 38.8px;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.6px;
+    border-radius: 6px;
+}
+
+
+/* middle part styles */
+
+.middle-part {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-width: 1100px;
+    padding-top: 70px;
+    padding-bottom: 0px;
+}
+
+.middle-left {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    min-width: 0;
+}
+
+.middle-left h1 {
+    color: #FB651E;
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.middle-left h2 {
+    font-size: 1.5rem;
+    font-weight: 200;
+    line-height: 1.4;
+}
+
+.middle-left button {
+    color: white;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    font-weight: 600;
+    border: none;
+    background-color: #FB651E;
+    width: 180px;
+    height: 44px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.middle-right img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
